@@ -1,0 +1,715 @@
+@font-face {
+	src: url('../fonts/OpenSans-Regular.ttf');
+	font-family: 'OpenSans-Regular';
+}
+
+@font-face {
+	src: url('../fonts/OpenSans-Bold.ttf');
+	font-family: 'OpenSans-Bold';
+}
+
+@font-face {
+	src: url('../fonts/OpenSans-ExtraBold.ttf');
+	font-family: 'OpenSans-ExtraBold';
+}
+
+.First-Page {
+	background-color: #F6F2F2;
+	width: 100vw;
+	margin: 0;
+	padding-bottom: 111px;
+}
+
+.header-wrapper {
+	margin: 0 auto;
+	background-color: #000;
+	width: 91vw;
+	height: 15.5vh;
+}
+
+.Navigation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.Navigation > a {
+	color: #E0E0E0;
+	font-family: 'OpenSans-Bold';
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	width: 113px;
+	height: 24px;
+	padding: 33px 17px 32px 17px;
+	text-align: center;
+}
+
+.Navigation > a:hover {
+	background-color: #FF3F40;
+}
+
+.Page-Body {
+	display: flex;
+	width: 91vw;
+	margin: 0 auto;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	padding-top: 102px;
+}
+
+.Left-Side {
+	display: flex;
+	width: 50%;
+	min-width: 350px;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.Heading {
+	font-family: 'OpenSans-ExtraBold';
+	font-size: 60px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.Text {
+	font-family: 'OpenSans-Regular';
+	font-size: 16px;
+	margin: 0;
+}
+
+.Button-Link {
+	text-decoration: none;
+	font-family: 'OpenSans-Bold';
+	font-size: 18px;
+	letter-spacing: 0.2px;
+	color: #fff;
+	width: 230px;
+	padding: 22px 0px;
+	/*width: 20%;*/
+	/*padding: 19px 65px;*/
+	background-color: #FF2D2D;
+	margin: 0;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.Photo {
+	width: 50%
+}
+
+.Photo img {
+	width: 100%;
+	height: 100%;
+}
+
+.Second-Page {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	width: 91vw;
+	margin: 0 auto;
+	padding-top: 107px;
+}
+
+.Second-Left-Side {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 50%;
+}
+
+.Heading-2 {
+	font-family: 'OpenSans-Regular';
+	text-transform: uppercase;
+	font-size: 42px;
+	color: #000;
+	letter-spacing: 0.42px;
+	margin: 0;
+}
+
+.Second-Left-Side > p {
+	padding-top: 50px;
+	padding-bottom: 63px;
+	padding-right: 10px;
+}
+
+.Button-Link2 {
+	color: #FF2D2D;
+	width: 230px;
+	padding: 22px 0px;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'OpenSans-Bold';
+	font-size: 18px;
+	letter-spacing: 0.3px;
+	border-color: #FF2D2D;
+	border-style: solid;
+	border-radius: 10px;
+}
+
+.Second-Right-Side {
+	width: 50%;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.Service {
+	width: 50%;
+	height: 50%;
+	padding-bottom: 20px;
+}
+
+.Service h3 {
+	font-family: 'OpenSans-Bold';
+}
+
+.Third-Page {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	width: 91vw;
+	margin: 0 auto;
+	padding-top: 104px;
+}
+
+.Third-Page-Top {
+	width: 100%;
+	text-align: center;
+}
+
+.Third-Page-Top > p {
+	padding-top: 28px;
+	padding-bottom: 33px;
+}
+
+.Third-Page-Top > hr {
+	width: 134px;
+	height: 3px;
+	background-color: #FF2D2D;
+	border-color: #FF2D2D;
+}
+
+.Third-Page-Bottom {
+	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: flex-start;
+	align-items: space-between;
+	flex-wrap: wrap;
+}
+
+.Product-List {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-top: 86px;
+	padding-bottom: 60px;
+}
+
+.Product-List a {
+	text-decoration: none;
+	width: 210px;
+	font-family: 'OpenSans-Bold';
+	color: #000;
+	text-transform: uppercase;
+}
+
+.Product-List a:hover {
+	color: #FF2D2D; 
+}
+
+.Product-Images {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-bottom: 107px;
+}
+
+.Product-Images a {
+	width: 23%;
+	height: 50%;
+	margin: 10px 10px;
+}
+
+.Product-Images img {
+	width: 100%;
+	height: 100%;
+}
+
+.Fourth-Page {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	width: 91vw;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+
+.Fourth-Page-Top {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 70px;
+}
+
+.Fourth-Page-Top > p {
+	padding-top: 28px;
+	padding-bottom: 33px;
+}
+
+.Fourth-Page-Top > hr {
+	width: 134px;
+	height: 3px;
+	background-color: #FF2D2D;
+	border-color: #FF2D2D;
+	margin-left: 0;
+}
+
+.Fourth-Page-Bottom {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.CEO-Photo {
+	width: 25%;
+	padding-right: 25px;
+}
+
+.CEO-Photo img {
+	width: 100%;
+	height: 100%;
+}
+
+.CEO-Info {
+	width: 70%;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	padding-left: 25px;
+}
+
+.Mark-Waugh {
+	width: 100%;
+	padding-bottom: 35px;
+}
+
+.Mark-Waugh h3 {
+	font-family: 'OpenSans-Regular';
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 0.3834px;
+	margin: 0;
+	padding-bottom: 15px;
+}
+
+.Mark-Waugh p {
+	padding-bottom: 20px;
+}
+
+.CEO-socials a {
+	text-decoration: none;
+	padding-right: 20px;
+	font-family: "OpenSans-Regular";
+	font-style: italic;
+	color: #000;
+	font-size: 18px;
+}
+
+.CEO-Info img {
+	width: 23%;
+	height: 55%;
+	padding: 5px 5px;
+}
+
+.Fifth-Page {
+	width: 100vw;
+	height: 75vh;
+	background-color: #000;
+	margin: 107px 0px 0px 0px;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.Design-Tips {
+	width: 100%;
+	text-align: center;
+}
+
+.Design-Tips h3 {
+	font-family: 'OpenSans-Bold';
+	color: #fff;
+	font-size: 35px;
+	padding-top: 80px;
+	margin: 0;
+}
+
+.Design-Tips p {
+	color: #fff;
+	padding-top: 16px;
+}
+
+.Email {
+	width: 58%;
+	margin: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.Email p {
+	padding: 15px 0px 15px 15px;
+	margin: 0;
+	background-color: #fff;
+	width: 50%;
+	height: 15%;
+	border-radius: 5px;
+}
+
+.Subscribe {
+	width: 40%;
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 19px;
+}
+
+.Subscribe-Link {
+	text-decoration: none;
+	font-family: 'OpenSans-Regular';
+	font-size: 18px;
+	letter-spacing: 0.317046px;
+	color: #fff;
+	width: 180px;
+	height: 8%;
+	padding: 22px 0px;
+	background-color: #FF2D2D;
+	margin: 0;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.Sixth-Page {
+	width: 91vw;
+	margin: 0 auto;
+	padding-top: 107px;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.Sixth-Page-Top {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 40px;
+}
+
+.Sixth-Page-Top > p {
+	padding-top: 28px;
+	padding-bottom: 33px;
+}
+
+.Sixth-Page-Top > hr {
+	width: 134px;
+	height: 3px;
+	background-color: #FF2D2D;
+	border-color: #FF2D2D;
+	margin-left: 0;
+}
+
+.Contact-Form {
+	width: 49%;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.Name {
+	width: 45%;
+	margin: 0;
+	padding-right: 50px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.Name p {
+	padding: 15px 0px 15px 53px;
+	margin: 0;
+	background-color: #e1e4e8;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.Your-Mail {
+	width: 45%;
+	margin: 0;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.Your-Mail p {
+	padding: 15px 0px 15px 53px;
+	margin: 0;
+	background-color: #e1e4e8;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.Your-Message {
+	width: 100%;
+	margin: 0;
+	padding-top: 43px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.Your-Message p {
+	padding: 32px 0px 15px 53px;
+	height: 252px;
+	margin: 0;
+	background-color: #e1e4e8;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.Send-Message {
+	width: 100%;
+	margin: 0;
+	padding-top: 43px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.Send-Message-Button {
+	text-decoration: none;
+	font-family: 'OpenSans-Bold';
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 0.2px;
+	color: #fff;
+	width: 100%;
+	padding: 22px 0px;
+	background-color: #FF2D2D;
+	margin: 0;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.Contact-Info {
+	width: 44%;
+	margin-left: 70px;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	background-color: #2D2D2D;
+}
+
+.Contact-Info h3 {
+	font-family: 'OpenSans-Bold';
+	font-size: 18px;
+	letter-spacing: 0.317046px;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 141px 0px 20px 81px;
+	margin: 0;
+}
+
+.Contact-Info p {
+	color: #fff;
+	padding-left: 81px;
+	width: 100%;
+}
+
+
+.Footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: #313030;
+	margin: 107px 0px 0px 0px;
+	padding: 45px 0px 25px 0px;
+	width: 100vw;
+	line-height: 26px;
+}
+
+.Footer-Text {
+	font-family: 'OpenSans-Regular';
+	font-size: 16px;
+	color: #B8B8B8;
+	padding-left: 80px;
+}
+
+.Socials {
+	padding-right: 80px;
+}
+
+.Socials img {
+	padding: 0px 9px;
+}
+
+@media screen and (max-width: 1100px) {
+	.Product-Images a {
+		width: 20%;
+	}
+	.Contact-Form {
+		width: 45%;
+	}
+	.Name {
+		width: 44%;
+	}
+	.Your-Mail {
+		width: 44%;
+	}
+}
+
+@media screen and (max-width: 1015px) {
+	.Name {
+		width: 100%;
+		padding-right: 0px;
+	}
+	.Your-Mail {
+		width: 100%;
+		padding-top: 15px;
+	}
+}
+
+@media screen and (max-width: 1090px) {
+	.Heading {
+		font-size: 45px;
+	}
+	.Service {
+		width: 47%;
+		padding-right: 10px;
+	}
+	.Heading-2 {
+		font-size: 35px;
+	}
+	.Product-List {
+		justify-content: space-between;
+		line-height: 45px;
+	}
+	.CEO-Photo {
+	width: 50%;
+	padding-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 949px) {
+	.Email {
+		width: 100%;
+		justify-content: center;
+	}
+	.Subscribe {
+		width: 100%;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.Left-Side {
+		width: 100%;
+	}
+	.Left-Side h1 {
+		padding-bottom: 20px;
+	}
+	.Left-Side p {
+		padding-bottom: 20px;
+	}
+	.Photo {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.CEO-Info {
+		width: 100%;
+	}
+	.CEO-Info img {
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 735px) {
+	.Second-Left-Side {
+		width: 100%;
+		padding-bottom: 25px;
+	}
+	.Second-Right-Side {
+		width: 100%;
+	}
+	.Footer {
+		line-height: 40px;
+	}
+	.Footer-Text {
+		padding-left: 10px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.Contact-Info {
+		width: 42%;
+	}
+	.Contact-Info h3 {
+		padding: 70px 0px 20px 40px;
+		font-size: 14px;
+	}
+	.Contact-Info p {
+		padding-left: 40px;
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.Contact-Form {
+		width: 100%;
+		padding-bottom: 30px;
+	}
+	.Contact-Info {
+		width: 100%;
+		margin: 0;
+	}
+	.Contact-Info h3 {
+		padding-top: 20px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.Product-Images a {
+		width: 100%;
+		height: auto;
+	}
+	.Product-List {
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.Heading {
+		font-size: 30px;
+		padding-bottom: 15px;
+	}
+	.Text {
+		font-size: 14px;
+		padding-bottom: 15px;
+	}
+	.Button-Link {
+		padding: 10px 30px;
+		font-size: 14px;
+	}
+	.Service {
+		width: 100%;
+		height: auto;
+	}
+	.Design-Tips h3 {
+		font-size: 20px;
+	}
+}
